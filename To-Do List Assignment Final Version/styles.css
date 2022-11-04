@@ -1,0 +1,71 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#new_task_form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#task_input {
+    align-self: center;
+    width: 40vw;
+    margin-bottom: 20px; 
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+#submit_btn {
+    align-self: center;
+    width: 25vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.todo_display {
+    display: flex;
+    justify-content: center;
+}
+
+.todo_list {
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    padding: 0;
+    margin: 0;  
+}
+
+.todo_item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.todo_checkbox {
+    margin-left: 20px;
+}
+
+.task_content {
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
+
+.delete_icon {
+    align-self: center;
+    height: 15px;
+    margin-right: 20px;
+}
+
+.task_complete {
+    text-decoration: line-through;
+}
+
